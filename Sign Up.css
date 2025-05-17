@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Varela Round", sans-serif;
+    display: center;
+    min-height: 100vh;
+    background-image:url(BG\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.signup-box {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 30px 40px;
+    width: 500px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 10% auto;
+}
+
+.logo {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.facebook-btn {
+    background-color: #1b69e7;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.facebook-btn:hover {
+    background-color: #0a3e91;
+}
+
+.divider {
+    display: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.divider::before, .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #aaa;
+}
+.divider span {
+    margin: 0 10px;
+    color: #d6005e;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 3px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 100px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.dob {
+    width: 100%;
+    padding: 2px;
+    margin: 5px 5px;
+    display: flex;
+    gap: 1%;
+    justify-content: space-between;
+}
+.dob input {
+    width: 32%;
+}
+
+.section-label {
+    display: block;
+    text-align: center;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.gender label {
+    font-size: 14px;
+}
+
+.checkbox {
+    font-size: 14px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.signup-btn {
+    display: block;
+    width: 50%;
+    padding: 15px;
+    margin: 5px auto 0;
+    border: none;
+    border-radius: 100px;
+    background-color: #cf0067;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #9b024f;
+}
+
+.divider {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+.google-signup {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+.google-signup img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.google-signup:hover {
+    background: #f2f2f2;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

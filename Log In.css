@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 7%;
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+    font-family: "Varela Round", sans-serif;
+    min-height: 100vh;
+    background-image:url(BG\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 320px;
+    z-index: 1;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 100px;
+    background-color: #eee;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    display: block;
+    width: 50%;
+    padding: 15px;
+    margin: 5px auto 0;
+    border: none;
+    border-radius: 100px;
+    background-color: #cf0067;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #9b024f;
+}
+.extra-options {
+    margin-top: 15px;
+    font-size: 0.9em;
+    }
+
+.extra-options a {
+    color: #cf0067; 
+    text-decoration: none;
+    }
+
+.extra-options a:hover {
+    color: #5f0030;
+}
+
+.divider {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+.google-login {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+.google-login img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.google-login:hover {
+    background: #f2f2f2;
+}
