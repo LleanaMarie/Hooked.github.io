@@ -63,6 +63,7 @@ input[type="email"], input[type="password"] {
 .extra-options a {
     color: #cf0067; 
     text-decoration: none;
+    transition: color 0.3s ease;
     }
 
 .extra-options a:hover {
@@ -106,3 +107,18 @@ input[type="email"], input[type="password"] {
 .google-login:hover {
     background: #f2f2f2;
 }
+
+.website-btn {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #cf0067;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.website-btn:hover {
+    color: #5f0030;
+}
+
